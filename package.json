@@ -24,7 +24,7 @@
 	},
 	"releaseTxt": {
 		"title": "Joomla site module mod_countghsvsGhsvs",
-		"requires": [],
+		"requires": ["jQuery"],
 		"uses": [
 			"https://github.com/akhtar-husain/Counter (modified by GHSVS)",
 			"https://github.com/imakewebthings/waypoints"
