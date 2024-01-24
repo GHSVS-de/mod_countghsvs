@@ -68,7 +68,7 @@
 		"counter"
 	],
 	"private": false,
-	"description": "Joomla frontend module. Counts numbers up from a start value to an end value.q Starts counting when scrolling into the page area where the module is positioned. Uses JQuery JavaScript. For me, useless, resource-guzzling website rubbish, but some customers want something like this.",
+	"description": "Joomla frontend module. Counts numbers up from a start value to an end value. Starts counting when scrolling into the page area where the module is positioned. Uses JQuery JavaScript. For me, useless, resource-guzzling website rubbish, but some customers want something like this.",
 	"license": "GPL-3.0",
 	"repository": {
 		"type": "git",
