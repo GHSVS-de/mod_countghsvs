@@ -1,7 +1,7 @@
 # MOD_COUNTGHSVS. Joomla site module.
 
 ## DE
-Joomla-Frontend-Modul. Zählt Zahlen aufwärts von einem Startwert bis zu einem Endwert. Beginnt mit dem Zählen, wenn in den Seitenbereich gescrollt wird, in dem das Modul positioniert ist. Verwendet JQuery JavaScript. Verwendet JQuery-JavaScript. Für mich nutzloses, Ressourcen-fressendes Webseiten-Kokolores, aber mancher Kunde will so was.
+Joomla-Frontend-Modul. Zählt Zahlen aufwärts von einem Startwert bis zu einem Endwert. Beginnt mit dem Zählen, wenn in den Seitenbereich gescrollt wird, in dem das Modul positioniert ist. Verwendet JQuery JavaScript. Für mich nutzloses, Ressourcen-fressendes Webseiten-Kokolores, aber mancher Kunde will so was.
 
 ## EN
 Joomla frontend module. Counts numbers up from a start value to an end value. Starts counting when scrolling into the page area where the module is positioned. Uses JQuery JavaScript. For me, useless, resource-guzzling website rubbish, but some customers want something like this.
