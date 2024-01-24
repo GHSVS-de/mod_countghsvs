@@ -1,0 +1,87 @@
+{
+	"name": "mod_countghsvs",
+	"nameReal": "mod_countghsvs",
+	"filename": "mod_countghsvs",
+	"version": "2024.01.19",
+	"versionCompare": "2024.01.18",
+	"versionSub": "",
+	"update": {
+		"versionsSubComment": "Für joomla.asset.json. Dort z.B. auszeichnen als {{versionsSub.bootstrap}} etc.",
+		"versionsSub": {
+			"waypoints": "4.0.1",
+			"akhtar-husain-counter": "1.0-ghsvs-edited"
+		},
+		"infourl": "https://github.com/GHSVS-de/mod_countghsvs{{thisRelease}}",
+		"type": "module",
+		"folder": "",
+		"client": "site",
+		"tag": "stable",
+		"targetplatform": [
+			"4\\.(3|4|5|6|7|8|9|10|11|12|13|14|15)",
+			"5.*"
+		],
+		"namespace": "GHSVS\\Module\\CountGhsvs"
+	},
+	"releaseTxt": {
+		"title": "Joomla site module mod_countghsvsGhsvs",
+		"requires": [],
+		"uses": [
+			"https://github.com/akhtar-husain/Counter (modified by GHSVS)",
+			"https://github.com/imakewebthings/waypoints"
+		],
+		"language": ["en-GB"]
+	},
+	"changelog": {
+		"projecturl": "https://github.com/GHSVS-de/mod_countghsvs",
+		"infosDE": "",
+		"infosEN": "",
+		"docsDE": "",
+		"docsEN": "",
+		"lastTests": [
+			"PHP 8.2",
+			"Joomla 4.4"
+		]
+	},
+	"minimumPhp": "7.4.0",
+	"maximumPhp": "",
+	"minimumJoomla": "4.3.0",
+	"maximumJoomla": "5.9999.9999",
+	"allowDowngrades": "1",
+	"creationDate": "2024-01-18",
+	"licenseLong": "GNU General Public License version 3 or later; see LICENSE.txt.",
+	"copyright": "(C) 2024, G@HService Berlin Neukölln, Volkmar Volli Schlothauer (ghsvs.de)",
+	"author": {
+		"name": "G@HService Berlin Neukölln, Volkmar Volli Schlothauer",
+		"url": "https://ghsvs.de"
+	},
+	"contributors": [
+		{
+			"name": "G@HService Berlin Neukölln, Volkmar Volli Schlothauer",
+			"url": "https://ghsvs.de"
+		}
+	],
+	"bugs": "https://github.com/GHSVS-de/mod_countghsvs/issues",
+	"homepage": "https://github.com/GHSVS-de/mod_countghsvs#readme",
+	"keywords": [
+		"joomla",
+		"site module",
+		"counter"
+	],
+	"private": false,
+	"description": "Joomla frontend module. Counts numbers up from a start value to an end value.q Starts counting when scrolling into the page area where the module is positioned. Uses JQuery JavaScript. For me, useless, resource-guzzling website rubbish, but some customers want something like this.",
+	"license": "GPL-3.0",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/GHSVS-de/mod_countghsvs.git"
+	},
+	"scripts": {
+		"g-build": "node build.js",
+    "updateCheck": "npm outdated",
+    "update": "npm update --save-dev"
+	},
+	"dependencies": {
+		"waypoints": "^4.0.1"
+	},
+	"devDependencies": {},
+	"browserslist": []
+}

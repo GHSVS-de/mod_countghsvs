@@ -1,0 +1,43 @@
+{
+  "$schema": "https://developer.joomla.org/schemas/json-schema/web_assets.json",
+  "name": "{{name}}",
+  "version": "{{version}}",
+	"versionSub": "{{versionSub}}",
+  "description": "{{description}}",
+  "license": "{{licenseLong}}",
+  "assets": [
+    {
+      "name": "{{name}}.framework",
+      "type": "preset",
+			"dependencies": [
+				"jquery-migrate#script",
+				"{{name}}.waypoints#script",
+				"{{name}}.akhtar-husain-counter#script"
+			]
+    },
+    {
+      "name": "{{name}}.core",
+      "type": "script",
+      "uri": "{{name}}/{{name}}.js",
+			"version": "{{version}}",
+			"dependencies": [
+				"jquery-migrate"
+			]
+    },
+    {
+      "name": "{{name}}.waypoints",
+      "type": "script",
+      "uri": "{{name}}/waypoints/noframework.waypoints.js",
+			"version": "{{versionsSub.waypoints}}"
+    },
+    {
+      "name": "{{name}}.akhtar-husain-counter",
+      "type": "script",
+      "uri": "{{name}}/akhtar-husain/counter.js",
+			"version": "{{versionsSub.akhtar-husain-counter}}",
+			"dependencies": [
+				"jquery-migrate"
+			]
+    }
+  ]
+}

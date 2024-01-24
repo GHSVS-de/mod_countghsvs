@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="{{type}}" client="{{client}}" method="{{method}}">
+	<name>{{nameUpper}}</name>
+	<author>{{authorName}}</author>
+	<creationDate>{{creationDate}}</creationDate>
+	<copyright>{{copyright}}</copyright>
+	<license>{{licenseLong}}</license>
+	<authorUrl>{{authorUrl}}</authorUrl>
+	<version>{{version}}</version>
+	<description>{{nameUpper}}_XML_DESCRIPTION</description>
+
+	<updateservers><server type="extension" priority="1" name="{{nameUpper}}">{{xmlserver}}/{{name}}-update.xml</server></updateservers>
+
+	<infourl>{{infourl}}</infourl>
+
+	<scriptfile>installerScript.php</scriptfile>
+	<minimumPhp>{{minimumPhp}}</minimumPhp>
+	<maximumPhp>{{maximumPhp}}</maximumPhp>
+	<minimumJoomla>{{minimumJoomla}}</minimumJoomla>
+	<maximumJoomla>{{maximumJoomla}}</maximumJoomla>
+	<allowDowngrades>{{allowDowngrades}}</allowDowngrades>
+
+	<files>
+		<folder>language</folder>
+		<folder module="{{name}}">services</folder>
+		<folder>src</folder>
+		<folder>tmpl</folder>
+		<filename>installerScript.php</filename>
+		<filename>LICENSE.txt</filename>
+	</files>
+
+	<media folder="media" destination="{{name}}">
+		<folder>js</folder>
+		<filename>joomla.asset.json</filename>
+	</media>
+	{{namespace}}
+	<config{{addfieldprefix}}>
+		<fields name="params">
+			<fieldset name="basic">
+
+				<field name="backgroundimage" type="media" default="" filter="string"
+					label="MOD_COUNTGHSVS_BACKGROUNDIMAGE"
+					preview="true"/>
+
+				<field name="itemsSpacer" type="note" close="true"
+					class="alert alert-info mb-0 mt-0"
+					label="MOD_COUNTGHSVS_CREATE_ITEMS"
+					description="MOD_COUNTGHSVS_CREATE_ITEMS_DESC"/>
+
+				<field name="timeGlobal" min="1000" default="5000" type="number" filter="integer"
+		 			label="MOD_COUNTGHSVS_TIME_GLOBAL"/>
+
+				<field name="items" type="subform" max="20" multiple="true"
+					formsource="modules/mod_countghsvs/src/Form/subform.xml"
+					layout="joomla.form.field.subform.repeatable" groupByFieldset="false"
+					label=""
+					hiddenLabel="true"
+					description=""/>
+			</fieldset>
+
+			<fieldset name="advanced">
+				<field
+					name="layout"
+					type="modulelayout"
+					label="JFIELD_ALT_LAYOUT_LABEL"
+					class="form-select"
+					validate="moduleLayout"
+				/>
+
+				<field
+					name="moduleclass_sfx"
+					type="textarea"
+					label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL"
+					rows="3"
+					validate="CssIdentifier"
+				/>
+
+				<field
+					name="cache"
+					type="list"
+					label="COM_MODULES_FIELD_CACHING_LABEL"
+					default="1"
+					filter="integer"
+					validate="options"
+					>
+					<option value="1">JGLOBAL_USE_GLOBAL</option>
+					<option value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
+				</field>
+
+				<field
+					name="cache_time"
+					type="number"
+					label="COM_MODULES_FIELD_CACHE_TIME_LABEL"
+					default="900"
+					filter="integer"
+				/>
+
+				<field
+					name="cachemode"
+					type="hidden"
+					default="static"
+					>
+					<option value="static"></option>
+				</field>
+
+			</fieldset>
+		</fields>
+	</config>
+</extension>

@@ -1,0 +1,43 @@
+{
+  "$schema": "https://developer.joomla.org/schemas/json-schema/web_assets.json",
+  "name": "mod_countghsvs",
+  "version": "2024.01.18",
+	"versionSub": "",
+  "description": "Joomla frontend module. Counts numbers up from a start value to an end value.q Starts counting when scrolling into the page area where the module is positioned. Uses JQuery JavaScript. For me, useless, resource-guzzling website rubbish, but some customers want something like this.",
+  "license": "GNU General Public License version 3 or later; see LICENSE.txt.",
+  "assets": [
+    {
+      "name": "mod_countghsvs.framework",
+      "type": "preset",
+			"dependencies": [
+				"jquery-migrate#script",
+				"mod_countghsvs.waypoints#script",
+				"mod_countghsvs.akhtar-husain-counter#script"
+			]
+    },
+    {
+      "name": "mod_countghsvs.core",
+      "type": "script",
+      "uri": "mod_countghsvs/mod_countghsvs.js",
+			"version": "2024.01.18",
+			"dependencies": [
+				"jquery-migrate"
+			]
+    },
+    {
+      "name": "mod_countghsvs.waypoints",
+      "type": "script",
+      "uri": "mod_countghsvs/waypoints/noframework.waypoints.js",
+			"version": "4.0.1"
+    },
+    {
+      "name": "mod_countghsvs.akhtar-husain-counter",
+      "type": "script",
+      "uri": "mod_countghsvs/akhtar-husain/counter.js",
+			"version": "1.0-ghsvs-edited",
+			"dependencies": [
+				"jquery-migrate"
+			]
+    }
+  ]
+}
