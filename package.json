@@ -2,8 +2,8 @@
 	"name": "mod_countghsvs",
 	"nameReal": "mod_countghsvs",
 	"filename": "mod_countghsvs",
-	"version": "2024.01.19",
-	"versionCompare": "2024.01.18",
+	"version": "2024.02.03",
+	"versionCompare": "2024.01.19",
 	"versionSub": "",
 	"update": {
 		"versionsSubComment": "Für joomla.asset.json. Dort z.B. auszeichnen als {{versionsSub.bootstrap}} etc.",
