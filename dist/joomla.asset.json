@@ -1,9 +1,9 @@
 {
   "$schema": "https://developer.joomla.org/schemas/json-schema/web_assets.json",
   "name": "mod_countghsvs",
-  "version": "2024.01.19",
+  "version": "2024.02.03",
 	"versionSub": "",
-  "description": "Joomla frontend module. Counts numbers up from a start value to an end value.q Starts counting when scrolling into the page area where the module is positioned. Uses JQuery JavaScript. For me, useless, resource-guzzling website rubbish, but some customers want something like this.",
+  "description": "Joomla frontend module. Counts numbers up from a start value to an end value. Starts counting when scrolling into the page area where the module is positioned. Uses JQuery JavaScript. For me, useless, resource-guzzling website rubbish, but some customers want something like this.",
   "license": "GNU General Public License version 3 or later; see LICENSE.txt.",
   "assets": [
     {
@@ -12,14 +12,23 @@
 			"dependencies": [
 				"jquery-migrate#script",
 				"mod_countghsvs.waypoints#script",
-				"mod_countghsvs.akhtar-husain-counter#script"
+				"mod_countghsvs.akhtar-husain-counter#script",
+
+				"mod_countghsvs.override.template#style"
 			]
     },
+		{
+			"name": "mod_countghsvs.override.template",
+			"version": "2024.02.03",
+			"type": "style",
+			"uri": "mod_countghsvs.css",
+			"weight": 500
+		},
     {
       "name": "mod_countghsvs.core",
       "type": "script",
       "uri": "mod_countghsvs/mod_countghsvs.js",
-			"version": "2024.01.19",
+			"version": "2024.02.03",
 			"dependencies": [
 				"jquery-migrate"
 			]

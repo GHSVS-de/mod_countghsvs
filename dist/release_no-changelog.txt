@@ -1,11 +1,11 @@
-2024.01.19
+2024.02.03
 
-Joomla site module mod_countghsvsGhsvs 2024.01.19
+Joomla site module mod_countghsvsGhsvs 2024.02.03
 
-Joomla frontend module. Counts numbers up from a start value to an end value.q Starts counting when scrolling into the page area where the module is positioned. Uses JQuery JavaScript. For me, useless, resource-guzzling website rubbish, but some customers want something like this.
+Joomla frontend module. Counts numbers up from a start value to an end value. Starts counting when scrolling into the page area where the module is positioned. Uses JQuery JavaScript. For me, useless, resource-guzzling website rubbish, but some customers want something like this.
 
 ### Download
-[mod_countghsvs-2024.01.19.zip](https://github.com/GHSVS-de/mod_countghsvs/raw/2024.01.19/dist/mod_countghsvs-2024.01.19.zip)
+[mod_countghsvs-2024.02.03.zip](https://github.com/GHSVS-de/mod_countghsvs/raw/2024.02.03/dist/mod_countghsvs-2024.02.03.zip)
 
 ### Joomla-Target-Platform(s)
 4\.(3|4|5|6|7|8|9|10|11|12|13|14|15)<br>5.&ast;
@@ -13,12 +13,12 @@ Joomla frontend module. Counts numbers up from a start value to an end value.q S
 ### For the interested ones
 - Deutsche Beschreibung:
 - English Description:
-- [Compare releases 2024.01.18...2024.01.19](https://github.com/GHSVS-de/mod_countghsvs/compare/2024.01.18...2024.01.19)
+- [Compare releases 2024.01.19...2024.02.03](https://github.com/GHSVS-de/mod_countghsvs/compare/2024.01.19...2024.02.03)
 - minimumJoomla: 4.3.0
 - maximumJoomla: 5.9999.9999
 - minimumPhp: 7.4.0
 - maximumPhp:
-- Checksum: `<sha256>d70256eeb0578f702dda3ec2d623704a39a244de5c36bdbad3523d21c41e77eb</sha256>`
+- Checksum: `<sha256>b298e9c86d722be3fa01ad884c697235f1d6e54f60ee8c2edd342156d7fc6b65</sha256>`
 - Readme: https://github.com/GHSVS-de/mod_countghsvs#readme
 - Updates XML: https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/mod_countghsvs-update.xml
 - Last tests: PHP 8.2<br>Joomla 4.4

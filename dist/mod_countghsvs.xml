@@ -6,12 +6,12 @@
 	<copyright>(C) 2024, G@HService Berlin Neukölln, Volkmar Volli Schlothauer (ghsvs.de)</copyright>
 	<license>GNU General Public License version 3 or later; see LICENSE.txt.</license>
 	<authorUrl>https://ghsvs.de</authorUrl>
-	<version>2024.01.19</version>
+	<version>2024.02.03</version>
 	<description>MOD_COUNTGHSVS_XML_DESCRIPTION</description>
 
 	<updateservers><server type="extension" priority="1" name="MOD_COUNTGHSVS">https://raw.githubusercontent.com/GHSVS-de/upadateservers/master/mod_countghsvs-update.xml</server></updateservers>
 
-	<infourl>https://github.com/GHSVS-de/mod_countghsvs/releases/tag/2024.01.19</infourl>
+	<infourl>https://github.com/GHSVS-de/mod_countghsvs/releases/tag/2024.02.03</infourl>
 
 	<scriptfile>installerScript.php</scriptfile>
 	<minimumPhp>7.4.0</minimumPhp>
