@@ -12,9 +12,18 @@
 			"dependencies": [
 				"jquery-migrate#script",
 				"{{name}}.waypoints#script",
-				"{{name}}.akhtar-husain-counter#script"
+				"{{name}}.akhtar-husain-counter#script",
+
+				"{{name}}.override.template#style"
 			]
     },
+		{
+			"name": "{{name}}.override.template",
+			"version": "{{version}}",
+			"type": "style",
+			"uri": "mod_countghsvs.css",
+			"weight": 500
+		},
     {
       "name": "{{name}}.core",
       "type": "script",
